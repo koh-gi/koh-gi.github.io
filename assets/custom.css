@@ -1,0 +1,12 @@
+.global-wrapper .site-content .posts-content .artworks-list li .caption {
+  display: block;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: normal !important;
+  color: dimgray;
+}
+.global-wrapper .site-header .tagline {
+  display: none;
+}
