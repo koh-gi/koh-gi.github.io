@@ -1,7 +1,7 @@
 ---
 layout: artworks
-title: Drawings
+title: DRAWINGS
 item: drawing
 permalink: /drawings
-navItemTitle: Drawing
+navItemTitle: DRAWING
 ---

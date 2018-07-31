@@ -1,7 +1,7 @@
 ---
-layout: artworks
-title: Paintings
-item: painting
+layout: page
+title: ~
 permalink: /
-navItemTitle: Painting
 ---
+
+![Main image](/assets/images/painting/painting002.jpg)
