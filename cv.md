@@ -1,8 +1,8 @@
 ---
-layout: about
+layout: cv
 title: CV
 permalink: /cv
-navItemTitle: CV
+navItemTitle: cv
 ---
 
 ## EDUCATION

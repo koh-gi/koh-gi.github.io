@@ -7,13 +7,18 @@ layout: default
     <h1>{{page.title}}</h1>
   </header>
   <section class="posts-content texts-content">
-    {% assign sorted_posts = site.posts 
-      | where:"categories", page.item %}
+    {% assign sorted_posts = site.posts
+      | where:"categories", page.item
+      | sort:"order"
+      | reverse %}
     {% if sorted_posts.size > 0 %}
       <ul class="posts-list texts-list">
         {% for post in sorted_posts %}
           <li>
-            <a href="{{ post.url | prepend:site.baseurl }}">
+            {% if site.data.settings.text.showDate %}
+              <span class="post-date">{{ post.date | date_to_string }}</span>
+            {% endif %}
+            <a href="{{ post.url | relative_url }}">
               <span class="post-title">{{post.title}} - {{post.author}}</span>
             </a>
           </li>
