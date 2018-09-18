@@ -1,7 +1,7 @@
 ---
 layout: texts
-title: TEXTS
+title: TEXT
 item: text
-permalink: /texts
+permalink: /text
 navItemTitle: text
 ---

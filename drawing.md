@@ -1,7 +1,7 @@
 ---
 layout: artworks
-title: DRAWINGS
+title: DRAWING
 item: drawing
-permalink: /drawings
+permalink: /drawing
 navItemTitle: drawing
 ---
