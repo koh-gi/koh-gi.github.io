@@ -23,7 +23,8 @@ img {
 }
 
 .global-wrapper .site-content .artwork-wrapper .artwork-content .artwork-image p {
-  text-align: center
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 @media all and (max-width: 960px) {
