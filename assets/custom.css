@@ -24,6 +24,7 @@ img {
 
 .global-wrapper .site-content .artwork-wrapper .artwork-content .artwork-image p {
   text-align: center;
+  line-height: 1.4;
   font-size: 0.8rem;
 }
 
